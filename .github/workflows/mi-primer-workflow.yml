@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Imprimir
     - env:
-    - MI_VARIABLE: Hola Mundo
+        MI_VARIABLE: Hola Mundo
     - run: 
         echo $MI_VARIABLE
 
