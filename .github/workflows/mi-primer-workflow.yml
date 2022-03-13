@@ -8,7 +8,7 @@ jobs:
     - name: Imprimir
     - env:
         MI_VARIABLE: Hola Mundo
-    - run: 
+    - run: |
         echo $MI_VARIABLE
 
         
