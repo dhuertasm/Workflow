@@ -6,9 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Imprimir
-    - env:
+      env:
         MI_VARIABLE: Hola Mundo
-    - run: |
+      run: |
         echo $MI_VARIABLE
 
         
