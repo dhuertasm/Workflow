@@ -7,7 +7,7 @@ jobs:
       name: Mi primer job
       runs-on: ubuntu-latest
       steps:
-      - name: Imprimir
+        name: Imprimir
         env:
           MI_VARIABLE: Hola Mundo
         run: 
